@@ -1,0 +1,103 @@
+.row{
+    display: flex;
+    gap: 40px ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.row2{
+     display: flex;
+    gap: 40px ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.shape1{
+    width: 200px; 
+    height: 200px;
+    background-color: darkmagenta;
+    border: 10px solid goldenrod;
+    margin-bottom: 10px;
+
+}
+.shape2{
+     width: 200px; 
+    height: 200px;
+    background-color:darkmagenta ;
+    border: 10px solid goldenrod;
+    margin-bottom: 10px;
+    border-radius: 100px;
+ 
+}
+
+.shape3{
+ width: 200px; 
+    height: 200px;
+    background-color:darkmagenta;
+    border: 10px solid goldenrod;
+    margin-bottom: 10px;
+border-radius: 40px;
+
+
+}
+
+
+.shape4{
+     width: 200px; 
+    height:200px;
+    background-color:darkmagenta;
+    border: 10px solid goldenrod;
+    margin-bottom: 10px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius:40px;
+
+
+}
+
+
+.shape6{
+    width: 200px; 
+    height:200px;
+    background-color:darkmagenta;
+    border: 10px solid goldenrod;
+    margin-bottom: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius:100px;
+border-bottom-left-radius:0px ;
+border-bottom-right-radius: 0px;
+}
+.shape7{
+   width: 200px; 
+    height:200px;
+    background-color:darkmagenta;
+    border: 10px solid goldenrod;
+    margin-bottom: 10px;
+    border-top-left-radius: 100px;
+    border-top-right-radius:100px;
+border-bottom-left-radius:0px ;
+border-bottom-right-radius: 0px;  
+}
+.shape8{
+     width: 200px; 
+    height:200px;
+    background-color:darkmagenta ;
+    border: 10px solid goldenrod;
+    margin-bottom: 10px;
+    border-top-left-radius: 200px;
+    border-top-right-radius:0px;
+border-bottom-left-radius:0 ;
+border-bottom-right-radius: 200px;
+}
+.shape5{
+     width: 200px; 
+    height:200px;
+    background-color:darkmagenta ;
+    border: 10px solid goldenrod;
+    margin-bottom: 10px;
+    border-top-left-radius: 35px;
+    border-top-right-radius:35x;
+border-bottom-left-radius:35px;
+border-bottom-right-radius: 0px;
+
+}
