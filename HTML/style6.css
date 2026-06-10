@@ -1,0 +1,117 @@
+
+.background{
+ 
+
+ margin-top:0px;
+ margin-right: 0px;
+ margin: bottom 0px;
+ margin-right: 30px;
+background-color: rgb(159, 175, 175);
+width: 100%;
+  
+
+}
+
+.cars{
+  width: 70px;
+  position: absolute;
+  top:530px;
+  left:10px;
+animation-name:"background";
+animation-duration: 10s;
+animation-iteration-count: infinite;
+animation-direction: normal;
+/* animation-timing-function: calc(2s); */
+  
+}
+
+#redcar{
+   width: 70px;;
+  position: absolute;
+  top:530px;
+  left:200px;
+ animation-name:"redcar";
+animation-name:"redcar";
+
+animation-duration: 10s;
+animation-iteration-count: infinite;
+
+animation-timing-function:calc(2s);
+  
+}
+#bus{
+   width: 70px;
+  position: absolute;
+  top:600px;
+  left:600px;
+animation-name:"bus";
+animation-duration: 10s;
+
+
+
+
+animation-iteration-count: infinite;
+animation-direction:normal;
+
+  
+
+ 
+}
+#toogle{
+  width: 70px;
+  position: absolute;
+  top: 550px;
+  left:100px;
+ animation-name:"toogle";
+animation-duration: 10s;
+animation-iteration-count: infinite;
+}
+
+
+
+
+
+@keyframes background
+{
+  from{
+    transform:translateX(1400px);
+  }
+  to{
+    transform:translateX(0px) ;
+  }
+}
+@keyframes redcar
+{
+  from{
+    transform:translateX(0px);
+  }
+  to{
+    transform:translate(1200px) ;
+  }
+}
+@keyframes bus
+{
+  from{
+    transform:translate(800px);
+  }
+  to{
+    transform:translate(-540px) ;
+  }
+}
+@keyframes toogle
+{
+  from{
+    transform:translate(800px);
+  }
+  to{
+    transform:translate(-90px) ;
+  }
+}
+@keyframes move{
+  from{
+    transform:translate(0px);
+  }
+  to{
+    transform:translate(-1034px) ;
+  } 
+}
